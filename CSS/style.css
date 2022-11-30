@@ -1,0 +1,81 @@
+/* Reset*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/*main styling*/
+html,body{ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em ;
+
+}
+/*utility classe*/
+.container{
+    margin: auto;  
+    max-width: 1100px;
+    padding:0 20px ;
+    overflow: auto;
+    
+}
+.header{
+    display: flex;
+   justify-content: space-between;
+}
+.headerlinks{
+    display: flex;
+}
+a{
+    color: rgb(131, 24, 24);
+    text-decoration: none;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+
+p{
+    padding: 10px 0;
+}
+
+/*navbar*/
+#navbar{
+    background:rgb(255, 255, 255);
+    color: rgb(164, 33, 33);
+    overflow: auto;
+
+}
+#navbar a{
+    color:rgb(131, 24, 24);   
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float:left;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+
+}
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 58, 58);
+    font-weight: bolder;
+
+}
+.showcase-content{
+    margin-top: 17rem;
+
+}
