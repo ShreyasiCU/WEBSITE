@@ -160,9 +160,27 @@ p{
     flex-wrap: nowrap;
    
 }
+
 #graph {
-    display: flex;
-    padding: 40px;
+    max-width:1400px ;
+    padding:0 40px;
+    margin: auto;
 }
 
+#graph{
+    display: flex ;
+    padding-top: 60px;
+}
+#graph div{
 
+    flex:1;
+}
+
+#graph .item2 h2{ 
+    font-size: 50px;
+    color: rgb(230, 175, 46);
+}
+.list {
+    padding-left: 10px;
+    color:rgb(181, 33, 33);
+}
