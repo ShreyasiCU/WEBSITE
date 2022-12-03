@@ -85,7 +85,7 @@ p{
     margin-top: 1rem;
 }
 #showcase{
-    background: antiquewhite url('../cover\ image-01.png') no-repeat center center/cover;
+    background: antiquewhite url('../cover\ image-01-01.png') no-repeat center center/cover;
     height: 80vh;
     
 }
@@ -120,37 +120,49 @@ p{
     width: 150vh;
 }
 #details-info1{
-    height:600px;
+    height:650px;
     display: flex;
     flex-direction:row;
     justify-content: flex-start;
-    padding-right: 40px;
+    padding-right: 0;
+    background: rgb(232, 232, 232);
 
 
 }
 .info1-img{
     
-    background:url('../california-county.jpeg') no-repeat center center/cover ;
+    background:url('../california-county\ 1.png') no-repeat center center/cover ;
     position: relative;
     min-height: 100%;
-    flex-basis: 3000px;
+    flex-basis: 2772px;
     
 } 
 #details-info1 .info1-content{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 80px 40px;
+    padding: 80px 160px;
+    
+    justify-content: center;
+}
+#details-info1 .info1-content h2{
+    font-size: 45px;
+    font-weight: bolder;
+    color:rgb(230, 175, 46);
 }
 
 #graph1{
+    
     height: 600px;
     width: 60%;
-    align-content: center;
-    
+    justify-content:right ;
     padding: 121px 90px;
     flex-wrap: nowrap;
-    margin: auto;
+   
+}
+#graph {
+    display: flex;
+    padding: 40px;
 }
 
 
