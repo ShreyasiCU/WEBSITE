@@ -32,61 +32,29 @@ body{ font-family:'Roboto', sans-serif;
     display: flex;
     justify-content: space-between;
 }
-.headerlinks{
-    display: flex;
-}
-a{
-    color: rgb(131, 24, 24);
-    text-decoration: none;
-}
+
+
+
 h1,h2,h3{
     padding-bottom: 30px;
 }
-/*navbar*/
-#navbar h1{
-    padding-top: 12px;
-}
+
 p{
     padding: 10px 0;
 }
 
-
-#navbar{
-    background:rgb(255, 255, 255);
-    color: rgb(164, 33, 33);
-    overflow: auto;
-
-}
-#navbar a{
-    color:rgb(131, 24, 24);   
+m-text{
+    color:rgb(175, 51, 9);
+    font-size: 60px;
 }
 
 
-
-.headerlinks ul {
-    list-style: none;
-
-}
-
-.headerlinks ul li a{
-    /*to make box for each links and add padding, cannot add to li as its a list, have to add to components of list*/
-    display: block;
-    padding:20 40px;
-    text-align: center;
-
-}
-.headerlinks ul li a:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(58, 58, 58);
-    font-weight: bolder;
-
-}
 .showcase-content{
     margin-top: 1rem;
 }
 #showcase{
     background: antiquewhite url('../cover\ image-01-01.png') no-repeat center center/cover;
-    height: 80vh;
+    height: 90vh;
     
 }
 
@@ -103,11 +71,13 @@ p{
 #showcase .showcase-content h1{
     font-size: 70px;
     font-weight: bolder;
+
     
 }
 #showcase .showcase-content h2{
     font-size: 20px;
     font-weight: lighter;  
+    padding-bottom: 90px;
 }
 .showcase-content h2{
     color: rgb(146, 21, 21);
@@ -117,8 +87,18 @@ p{
     color: rgb(28, 28, 28);
     font-size: 20px;
     line-height:  1.7em;
-    width: 150vh;
+    width: 140vh;
+    align-items: center;
 }
+
+#showcase  .showcase-content .lead2{
+    color: rgb(101, 100, 100);
+    font-size: 18px;
+    line-height:  1.7em;
+    width: 120vh;
+    align-items: center;
+}
+
 #details-info1{
     height:650px;
     display: flex;
