@@ -145,7 +145,7 @@ m-text{
     max-width:1560px ;
     padding:0 60px;
     margin: auto;
-    height: 800px;
+    height: 1000px;
 }
 
 #graph{
@@ -162,7 +162,7 @@ m-text{
 }
 
 #graph .item1{
-    flex:1.4;
+    flex:1.2;
     height: 700px;
     
 }
@@ -177,3 +177,21 @@ m-text{
     padding-left: 10px;
     color:rgb(181, 33, 33);
 }
+
+#2nd-graph{
+    padding:80px 60px;
+    margin: auto;
+    height: 1400px;
+
+}
+#2nd-graph .item2nd-1{
+    align-items: center;
+}
+#2nd-graph .item2nd-1 h2{
+    color: rgb(146, 21, 21);
+    font-size: 22px;
+    padding-left: 80px;
+
+}
+
+
