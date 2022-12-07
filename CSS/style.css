@@ -13,9 +13,12 @@
 body{ font-family:'Roboto', sans-serif;
     line-height: 1.7em ;
     perspective: 1px;
-    transform-style: preserve-3d;
+}
 
-
+body {
+	background-image: linear-gradient(to top, transparent 60px, #fff 60px, #fff 0);
+	font: 14pt "Crimson Text";
+	margin: 0;
 }
 /*utility class
 .container{
@@ -89,16 +92,16 @@ m-text{
     font-size: 22px;
 }
 #showcase  .showcase-content .lead{
-    color: rgb(202, 202, 202);
-    font-size: 22px;
+    color: rgb(220, 220, 220);
+    font-size: 24px;
     line-height:  1.7em;
     width: 130vh;
     align-items: center;
 }
 
 #showcase  .showcase-content .lead2{
-    color: rgb(163, 163, 163);
-    font-size: 20px;
+    color: rgb(190, 190, 190);
+    font-size: 22px;
     line-height:  1.7em;
     width: 100vh;
     align-items: center;
@@ -180,7 +183,7 @@ m-text{
 
 /*Graph2 paragraph*/
 #graph2{
-    height: 850px;   
+    height: 715px;   
     padding: 0;
     display: flex;
     margin: auto;
@@ -221,6 +224,7 @@ m-text{
 .light-background .item2-1{
     height: 10%;
     padding-bottom: 20px;
+    padding-left: 20px;
 }
 .light-background .graph2-list{
     list-style:disc;
@@ -242,7 +246,7 @@ m-text{
 .light-background2{
     height: 450px;
     width: 1700px;
-    padding:120px 110px;
+    padding:135px 110px;
     display: flex;
     margin: auto;
     flex-direction: column;
@@ -253,27 +257,199 @@ m-text{
 #graph3 .item3-1{
     background: rgb(237, 237, 237);
     border: 0px rgb(196, 196, 196) solid ;
-    border-radius: 10px;
-    padding: 60px;
+    border-radius: 3px;
+    padding: 40px;
     
     
 }
 #graph3 .item3-1 h2{
     color: rgb(90, 90, 90);
     font-size: 45px;
+    
 }
 #graph3 .item3-1 .m-text {
     color: rgb(233, 172, 30);
 }
 
-#graph4 .container4 .m-text{
+/*#graph4 .container4 .m-text{
     color: rgb(233, 172, 30);
-}
+}*/
 #graph4 .container4 h2{
     color: rgb(90, 90, 90);
-    font-size: 45px;
-    padding-bottom: 60px;
+    font-size: 30px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-weight: 600;
     
+}
+
+/* graph4 .item4-2a*/
+
+#graph4 .item4-2{
+    justify-content: flex-start;
+}
+#graph4 .item4-2 div{
+    display: block;
+    width:80%;
+    margin:auto;
+    padding-bottom: 30px;
+    padding-top: 20px;
+
+}
+
+#graph4 .item4-2 .item4-pg{
+    background: rgb(237, 237, 237);
+    width: 1700px;
+    text-align: left;
+    
+}
+    
+#graph4 .item4-2 .item4-pg h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#graph4 .item4-pg ul{
+    margin:auto;
+    width:1230px;
+    color:rgb(90, 90, 90);
+}
+
+/*graph5*/
+#graph5 .container5{
+    background: rgb(237, 237, 237);
+    width: 1700px;
+    margin: auto;
+    padding-top: 40px;
+    height: 300px;
+}
+
+#graph5 .container5 h2{
+   text-align: center;
+   font-size: 45px;
+   color: rgb(90, 90, 90);
+   padding-bottom: 30px;
+}
+
+#graph5 .container5 .m-text{
+    color: rgb(233, 172, 30);
+}
+#graph5 .container5 p{
+    
+    width:1230px;
+    margin: auto;
+    color:rgb(90, 90, 90);
+}
+
+#graph5 .container5 ul{
+    
+    width:1230px;
+    margin: auto;
+    padding-left: 15px;
+    color:rgb(90, 90, 90);
+}
+
+/*graph6*/
+#graph6 .container6 h2{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(90, 90, 90);
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+#graph6 .container6 {
+    margin: auto;
+    padding-top: 45px;
+}
+
+#graph6 .item6-1 div{
+    display: block;
+    width:85%;
+    margin:auto;
+    padding-bottom: 0px;
+    padding-top: 20px;
+
+}
+
+#graph6 .item6-1 h3{
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(224, 0, 34);
+    text-align: center;
+    padding-bottom: 80px;
+
+}
+
+/* graph7 container7*/
+#graph7 .container7{
+    background: rgb(237, 237, 237);
+    width: 1700px;
+    margin: auto;
+    padding-top: 60px;
+    height: 300px;
+}
+
+#graph7 .container7 h2{
+   text-align: center;
+   font-size: 45px;
+   color: rgb(90, 90, 90);
+   padding-bottom: 30px;
+}
+
+#graph7 .container7 .m-text{
+    color: rgb(233, 172, 30);
+}
+#graph7 .container7 p{
+    
+    width:1230px;
+    margin: auto;
+    color:rgb(90, 90, 90);
+}
+
+
+/* graph8 .item8*/
+
+#graph8 .item8{
+    justify-content: flex-start;
+}
+#graph8 .item8 div{
+    display: block;
+    width:85%;
+    margin:auto;
+    padding-bottom: 10px;
+    padding-top: 30px;
+
+}
+
+#graph8 .item8 h3{
+    font-size: 30px;
+    font-weight: 300;
+    color:rgb(224, 0, 34);
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+footer {
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+	z-index: 1;
+	height: 55px;
+	background-color: rgb(224, 0, 34);
+	color: white;
+	text-shadow: 2px 2px black;
+	padding: 10px 0;
+	text-align: center;
+}
+@media (max-width: 420px) {
+	footer {
+		font-size: 9pt;
+	}
 }
 
 
