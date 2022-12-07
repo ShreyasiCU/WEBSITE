@@ -20,6 +20,8 @@ body {
 	font: 14pt "Crimson Text";
 	margin: 0;
 }
+
+
 /*utility class
 .container{
     margin: auto;  
@@ -262,10 +264,12 @@ m-text{
     
     
 }
+
+
+
 #graph3 .item3-1 h2{
     color: rgb(90, 90, 90);
     font-size: 45px;
-    
 }
 #graph3 .item3-1 .m-text {
     color: rgb(233, 172, 30);
@@ -274,6 +278,26 @@ m-text{
 /*#graph4 .container4 .m-text{
     color: rgb(233, 172, 30);
 }*/
+
+#container .sticky{
+    width: 300px;
+    height: 15px;
+    background-color: rgb(224, 0, 34);
+    position:-webkit-sticky;
+    position:sticky;
+    top: 0;
+  }
+  
+  .sticky:nth-of-type(2) {  transform: translateX(300px); }
+  .sticky:nth-of-type(3) {  transform: translateX(600px); }
+  .sticky:nth-of-type(4) {  transform: translateX(90px); }
+  .sticky:nth-of-type(5) {  transform: translateX(120px); }
+  .sticky:nth-of-type(6) {  transform: translateX(150px); }
+  .sticky:nth-of-type(7) {  transform: translateX(180px); }
+  .sticky:nth-of-type(8) {  transform: translateX(210px); }
+  .sticky:nth-of-type(9) {  transform: translateX(240px); }
+  .sticky:nth-of-type(10) {  transform: translateX(270px); }
+
 #graph4 .container4 h2{
     color: rgb(90, 90, 90);
     font-size: 30px;
@@ -372,6 +396,14 @@ m-text{
 
 }
 
+#graph6 .item6-1 .line6{
+    width: 100%;
+    border-top: 3px solid rgb(228, 228, 228);
+    margin-top:0;
+    padding-bottom:  80px;
+    z-index: 1000;
+}
+
 #graph6 .item6-1 h3{
     font-size: 30px;
     font-weight: 300;
@@ -417,17 +449,28 @@ m-text{
     display: block;
     width:85%;
     margin:auto;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     padding-top: 30px;
 
 }
+#graph8 .item8 .line8{
+    width: 100%;
+    border-top: 3px solid rgb(228, 228, 228);
+    margin-top: -5px;
+    z-index: 1000;
+    margin-top:0;
+    padding-bottom:  80px;
+    
+}
+
+   
 
 #graph8 .item8 h3{
     font-size: 30px;
     font-weight: 300;
     color:rgb(224, 0, 34);
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
 }
 
 
