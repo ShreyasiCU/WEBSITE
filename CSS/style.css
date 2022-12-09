@@ -134,6 +134,7 @@ m-text{
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 80px 160px;
+    color:rgb(82, 82, 82);
     
     justify-content: center;
 }
@@ -281,7 +282,7 @@ m-text{
 
 #container .sticky{
     width: 500px;
-    height: 15px;
+    height: 20px;
     background-color: rgb(224, 0, 34);
     position:-webkit-sticky;
     position:sticky;
