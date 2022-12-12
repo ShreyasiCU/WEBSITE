@@ -48,6 +48,7 @@ body {
 
 h1,h2,h3{
     padding-bottom: 30px;
+    color: #555;
 }
 
 
@@ -75,10 +76,10 @@ m-text{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding: 0 60px;
+    padding: 0 50px;
 }
 #showcase .showcase-content h1{
-    font-size: 120px;
+    font-size: 130px;
     font-weight: bolder;
     font-family:'Kenia', cursive;
     color: aliceblue;
@@ -87,28 +88,30 @@ m-text{
 #showcase .showcase-content h2{
     font-size: 20px;
     font-weight: lighter;  
-    padding-bottom: 90px;
+    padding-bottom: 0px;
 }
 .showcase-content h2{
-    color: rgb(146, 21, 21);
+    color: rgb(142, 10, 10);
     font-size: 22px;
 }
 #showcase  .showcase-content .lead{
     color: rgb(220, 220, 220);
-    font-size: 24px;
-    line-height:  1.7em;
-    width: 130vh;
+    font-size: 23px;
+    line-height:  1.5em;
+    width: 100vh;
     align-items: center;
+    font-weight: 250;
 }
 
 #showcase  .showcase-content .lead2{
     color: rgb(190, 190, 190);
-    font-size: 22px;
-    line-height:  1.7em;
+    font-size: 20px;
+    line-height:  1.5em;
     width: 100vh;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 10px;
     font-weight: lighter;
+    font-weight: 300;
 }
 
 #details-info1{
@@ -117,42 +120,55 @@ m-text{
     flex-direction:row;
     justify-content: flex-start;
     padding-right: 0;
-    padding-left: 20px;
+    padding-left: 0px;
     background: rgb(237, 237, 237);
 
 
 }
 .info1-img{
     
-    background:url('../COUNTY\ MAP\ NEW-01.png') no-repeat center center/cover ;
+    /* background:url('../COUNTY\ MAP\ NEW-01.png') no-repeat center center/cover ; */
     position: relative;
-    height: 100%;
-    flex-basis: 2772px;
-    
+    /* height: 100%; */
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-around;
 } 
+img
+    {width: 60%;}
+    
+
 #details-info1 .info1-content{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 80px 160px;
+    padding: 50px 70px;
     color:rgb(82, 82, 82);
-    
-    justify-content: center;
+    flex-basis: 60%;
+    justify-content:flex-start;
 }
 #details-info1 .info1-content h2{
     font-size: 45px;
-    font-weight: bolder;
-    color:rgb(233, 172, 30);
+    font-weight: 500;
+    color:rgb(82, 82, 82);
 }
 
+#details-info1 .info1-content .m-text {
+    font-size: 45px;
+    font-weight: bolder;
+    color:rgb(233, 172, 30);
+
+}
 /*Graph1 paragraph*/
 #graph1{
     
-    height: 685px;
+    height: 620px;
     width: 1700px;
-    padding: 60px 80px;
+    padding: 40px 80px;
     display: flex;
     margin: auto;
+    padding-bottom: 20px;
+    
 
 }
 
@@ -170,14 +186,19 @@ m-text{
 }
 .dark-background .item1 .m-text {
     color: rgb(233, 172, 30);
+    font-weight: bolder;
 
 }
 .dark-background .item1 h2 {
-    color: rgb(172, 172, 172);
+    color: rgb(82, 82, 82);
     font-size: 45px;
+    font-weight: 500;
 }
 .dark-background .item1{
     padding-right: 100px;
+    padding-top:40px;
+    color: rgb(82, 82, 82);
+    padding-bottom: 20px;
 }
 
 .dark-background .item1 ul{
@@ -187,10 +208,11 @@ m-text{
 
 /*Graph2 paragraph*/
 #graph2{
-    height: 715px;   
+    height: 695px;   
     padding: 0;
     display: flex;
     margin: auto;
+    padding-top: 35px;
     
     
 }
@@ -207,11 +229,14 @@ m-text{
 
 .light-background .item2-2 .m-text {
     color: rgb(233, 172, 30);
+    font-weight: bolder;
+
 }
 
 .light-background .item2-2 h2{
     color: rgb(90, 90, 90);
     font-size: 45px;
+    font-weight: 500;
     
 }
 .light-background .item2-2{
@@ -223,6 +248,7 @@ m-text{
     flex-direction: column;
     flex-wrap: nowrap;
     padding: 70px 60px;
+    color: rgb(82, 82, 82);
     
 }
 .light-background .item2-1{
@@ -235,9 +261,9 @@ m-text{
 
 }
 .item2-2 ul{
-    padding-left: 20px;
+    padding-left: 18px;
     padding-right: 30px;
-    padding-top: 60px;
+    padding-top: 10px;
 
 }
 
@@ -481,13 +507,15 @@ m-text{
 h1 {
     text-align: center;
     margin-bottom: 3rem;
-    padding-top: 150px;
-    font-size: 80px; 
-    padding-bottom: 100px;
+    padding-top: 170px;
+    font-size: 90px; 
+    padding-bottom: 70px;
+    color:rgb(82, 82, 82);
     
   }
 h1 .m-text{
     color: rgb(233, 172, 30);
+    
 }
 
 
@@ -495,29 +523,15 @@ h1 .m-text{
     flex: 1;
 }
 
-
-
-
-
-footer {
-	position: sticky;
-	position: -webkit-sticky;
-	bottom: 0;
-	z-index: 1;
-	height: 55px;
-	background-color: rgb(224, 0, 34);
-	color: white;
-	text-shadow: 2px 2px black;
-	padding: 10px 0;
-	text-align: center;
-}
-@media (max-width: 420px) {
-	footer {
-		font-size: 9pt;
-	}
+.scrolly-1{
+    background:white ;
+    padding-bottom: 40px;
 }
 
 
+
+
+/*SCROLLY NEW*/
   
 
 div.sticky {
@@ -567,18 +581,159 @@ h1 {
     line-height: 1.8;
 
   } */
+
+
 figure {
   align-items: center;
   align-self: flex-start;
+  padding-bottom: 30px;
  
   display: flex;
   height: 20rem;
   margin: 0;
   width: 100%;
   justify-content: center;
-  top: 3rem;
+  top: 4rem;
   
   @media screen and (min-width: 40rem) {
     position: sticky;
   }
 }
+
+.scrolly-1{
+    padding-bottom: 130px;
+    background: white;
+    min-width: 1700px;
+    margin-bottom: 30vh;
+}
+.scrollyonetext{
+    margin-bottom: 20vh;
+}
+
+.scrolly-2{
+    padding-bottom: 180px;
+    background: white;
+    padding-top:40px;
+    margin-bottom: 10vh;
+}
+
+.scrolly-3{
+    padding-bottom: 150px;
+    background: white;
+    margin-bottom: 12vh;
+}
+
+
+.scrolly-3b{
+    padding-bottom: 150px;
+    background: white;
+    margin-bottom: 12vh;
+}
+
+.scrolly-4{
+    padding-bottom: 150px;
+    background: white;
+}
+
+/*graph 8*/
+
+#graph8 .item8{
+    justify-content: flex-start;
+}
+#graph8 .item8 div{
+    display: block;
+    width:95%;
+    margin:auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+#graph8 .item8 .line8{
+    width: 100%;
+    border-top: 3px solid rgb(228, 228, 228);
+    margin-top: -5px;
+    z-index: 1000;
+    margin-top:0;
+    padding-bottom:  80px;
+    
+}
+
+   
+
+.graph8-content h2{
+    font-size: 40px;
+    font-weight: 500;
+    color:rgb(233, 172, 30);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.graph8-content{
+    padding: 60px 70px;
+    text-align:left;
+    color: rgb(82, 82, 82);
+   
+    background: rgb(237, 237, 237);
+    width: 1600px;
+    margin: auto;
+    line-height: 1.7em;
+}
+
+.graph8-content p{
+    padding-left: 60px;
+}
+
+/*
+.top{
+    color: rgb(224, 0, 34);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+*/
+
+
+
+
+footer {
+	position: sticky;
+	position: -webkit-sticky;
+	bottom: 0;
+	z-index: 1;
+	height: 55px;
+	background-color: rgb(224, 0, 34);
+	color: white;
+	text-shadow: 2px 2px black;
+	padding: 10px 0;
+	text-align: center;
+}
+@media (max-width: 420px) {
+	footer {
+		font-size: 9pt;
+	}
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    z-index: 0;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 28px;
+    
+    border-radius: 4px;
+  }
+  #myBtn:hover {
+    background-color: #555;
+    font-weight: 900;
+    
+  }
+    
