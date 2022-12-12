@@ -112,20 +112,21 @@ m-text{
 }
 
 #details-info1{
-    height:650px;
+    height:600px;
     display: flex;
     flex-direction:row;
     justify-content: flex-start;
     padding-right: 0;
+    padding-left: 20px;
     background: rgb(237, 237, 237);
 
 
 }
 .info1-img{
     
-    background:url('../california-county\ 1.png') no-repeat center center/cover ;
+    background:url('../COUNTY\ MAP\ NEW-01.png') no-repeat center center/cover ;
     position: relative;
-    min-height: 100%;
+    height: 100%;
     flex-basis: 2772px;
     
 } 
@@ -245,7 +246,9 @@ m-text{
     color: rgb(90, 90, 90);
     
 }
-/*graph3*/
+
+
+/*graph3
 .light-background2{
     height: 450px;
     width: 1700px;
@@ -279,7 +282,7 @@ m-text{
 /*#graph4 .container4 .m-text{
     color: rgb(233, 172, 30);
 }*/
-
+/*
 #container .sticky{
     width: 500px;
     height: 20px;
@@ -288,16 +291,7 @@ m-text{
     position:sticky;
     top: 0;
   }
-  
-  .sticky:nth-of-type(2) {  transform: translateX(500px); }
-  .sticky:nth-of-type(3) {  transform: translateX(1000px); }
-  .sticky:nth-of-type(4) {  transform: translateX(1500px); }
-  .sticky:nth-of-type(5) {  transform: translateX(2000px); }
-  .sticky:nth-of-type(6) {  transform: translateX(2500px); }
-  .sticky:nth-of-type(7) {  transform: translateX(1800px); }
-  .sticky:nth-of-type(8) {  transform: translateX(2100px); }
-  .sticky:nth-of-type(9) {  transform: translateX(240px); }
-  .sticky:nth-of-type(10) {  transform: translateX(270px); }
+
 
 #graph4 .container4 h2{
     color: rgb(90, 90, 90);
@@ -310,7 +304,7 @@ m-text{
 }
 
 /* graph4 .item4-2a*/
-
+/*
 #graph4 .item4-2{
     justify-content: flex-start;
 }
@@ -340,8 +334,8 @@ m-text{
     width:1230px;
     color:rgb(90, 90, 90);
 }
-
-/*graph5*/
+*/
+/*graph5
 #graph5 .container5{
     background: rgb(237, 237, 237);
     width: 1700px;
@@ -374,8 +368,8 @@ m-text{
     padding-left: 15px;
     color:rgb(90, 90, 90);
 }
-
-/*graph6*/
+*/
+/*graph6
 #graph6 .container6 h2{
     text-align: center;
     font-size: 30px;
@@ -414,8 +408,8 @@ m-text{
     padding-bottom: 80px;
 
 }
-
-/* graph7 container7*/
+*/
+/* graph7 container7
 #graph7 .container7{
     background: rgb(237, 237, 237);
     width: 1700px;
@@ -441,8 +435,9 @@ m-text{
     color:rgb(90, 90, 90);
 }
 
+*/
 
-/* graph8 .item8*/
+/* graph8 .item8
 
 #graph8 .item8{
     justify-content: flex-start;
@@ -474,6 +469,34 @@ m-text{
     text-align: center;
     padding-bottom: 100px;
 }
+
+*/
+
+
+/*SCROLLY*/
+
+$top-offset: 3rem;
+$bp: 35rem;
+
+
+body {
+    
+    margin: $top-offset auto;
+    max-width: 1700px;
+  }
+
+h1 {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-top: 200px;
+    font-size: 45px; 
+  }
+h1 .m-text{
+    color: rgb(233, 172, 30);
+}
+
+
+
 
 
 
